@@ -1,3 +1,7 @@
+# mysql schema
+USE book_management;
+CREATE TABLE books (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, publisher VARCHAR(255) NOT NULL, date DATE NOT NULL);
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
